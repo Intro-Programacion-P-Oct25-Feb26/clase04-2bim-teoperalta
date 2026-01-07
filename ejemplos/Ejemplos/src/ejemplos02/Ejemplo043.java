@@ -21,7 +21,10 @@ public class Ejemplo043 {
             int v2 = valores2[i];
             obtenerSuma(v1, v2);
         }
-         // se invoca al método (procedimiento) obtenerSuma
+         /* 
+        Mediante un ciclo repetitivo se envia como argumentos los diferentes
+        elementos de los arreglos para sumarlos en orden
+        */
         
     }
         
