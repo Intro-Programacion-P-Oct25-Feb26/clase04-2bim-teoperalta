@@ -16,7 +16,7 @@ public class Ejemplo03 {
         int valor = obtenerSuma(10, 30); // se invoca al método 
                                          // obtenerSuma
         System.out.printf("El valor de la suma es: %d\n", valor);
-        System.out.printf(suma);
+        //System.out.printf(suma);
         //la variable suma solo existe en la funcion obtenerSuma mas no en este procedimiento
         
         // System.out.printf("El valor de la suma es: %d\n", obtenerSuma(10, 30));
@@ -24,6 +24,12 @@ public class Ejemplo03 {
     
     
     public static int obtenerSuma(int a, int b){
+        int suma;
+        suma = a + b;
+        return suma;
+        // return a + b;
+    }
+      public static int obtenerSumaDos(int a, int b){
         int suma;
         suma = a + b;
         return suma;
