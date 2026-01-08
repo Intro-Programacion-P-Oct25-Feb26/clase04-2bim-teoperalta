@@ -70,7 +70,7 @@ public class Ejemplo045 {
 
     public static int obtenerMultiplicacion(int a, int b) {
         return a * b;
-    }
+    
 
     public static double obtenerPotencia(int a, int b) {
         return Math.pow(a, b);
